@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MOHAMMED FAHIL FOOTBAL T-SHIRTS STORE</title>
+    <link rel="website icon"  type="jpg" href="LOGO.jpg">
+    <style>
+        body{
+            background-image: url(BGS/bgimg1.jfif);
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        header {
+            background-color: #f0bcbc;
+            color:rgb(69, 68, 68);
+            padding: 10px 0;
+            text-align: center;
+           border-radius: 20px;
+        }
+        header h1 {
+            margin: 0;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            text-align: center;
+        }
+        nav ul li {
+            display: inline-block;
+            margin: 0 10px;
+            border-width: 3px;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration-color: #0a0a0a;
+            text-decoration: none;
+        }
+        header nav ul li a:hover {
+            color:#2b0a87;
+        }
+        .produit{
+            background-color: #0f0f0f;
+            border: 2px solid rgb(10, 10, 10);
+            border-radius: 8px;
+        }
+        .products {
+            padding: 2rem;
+            
+        }
+
+        .products h2 {
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            text-align: center;
+            color: #547e56;
+            margin-bottom: 2rem;
+            font-size: 3rem;
+            border: solid white;
+            display: inline-block;
+            margin-left: 400px;
+            border-radius: 20px 30px;
+            background-color: #fff;
+        }
+
+        .product-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1.5rem;
+        }
+
+        .product-card {
+            background: white;
+            border: 2px solid #ddd;
+            border-radius: 10px;
+            overflow: hidden;
+            transition: transform 0.5s, box-shadow 0.5s;
+        }
+
+        .product-card:hover {
+            background-color: #349e21;
+            transform: scale(1.05);
+            box-shadow: 0 5px 15px rgb(144, 34, 34);
+        }
+
+        .product-card img {
+            width: 100%;
+            height: 300px;
+            object-fit: cover;
+        }
+
+        .product-card h3 {
+            margin: 0.5rem;
+            color: #333;
+        }
+
+        .product-card p {
+            margin: 0.5rem;
+            color: #777;
+        }
+
+        .product-card .price {
+            margin: 0.5rem;
+            color: red;
+            font-weight: bold;
+        }
+
+        .product-card button {
+            background: #4CAF50;
+            color: white;
+            border: none;
+            padding: 0.5rem 1rem;
+            margin: 1rem;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .product-card button:hover {
+            background: #181a18;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1> STORE OF MOHAMMED FAHIL </h1>
+        <nav>
+            <ul>
+                <li><a href="ACCUEIL-STORE.html">ACCUEIL</a></li>
+                <li><a href="ABOUT-US-STORE.html">ABOUT US</a></li>
+                <li class="produit"><a href="PRODUIT-STORE.html">PRODUITS</a></li>
+                <li><a href="CONTACT-US-STORE.html">CONTACT</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="products">
+        <h2>NOUS PRODUITS</h2>
+        <div class="product-grid">
+            <div class="product-card">
+                <img src="PRODS/prod1.jpg" alt="produit">
+                <h3>Home T-shirt  RAJA</h3><br>
+                <p>T-shirt Home green&white Raja Club Athletic Umbro 24/25</p>
+                <span class="price">500DH</span><br>
+                <button>SHOP NOW</button>
+            </div>
+            <div class="product-card">
+                <img src="PRODS/prod2.jpg" alt="produit">
+                <h3>Home T-shirt Real madrid</h3><br>
+                <p>T-shirt Home white Real madrid adidas 24/25</p>
+                <span class="price">750DH</span><br>
+                <button>SHOP NOW</button>
+            </div>
+            <div class="product-card">
+                <img src="PRODS/prod3.jpg" alt="produit">
+            <h3>Away T-shirt Real madrid</h3><br>
+                <p>T-shirt away grey Real madrid adidas 24/25</p>
+                <span class="price">800DH</span><br>
+                <button>SHOP NOW</button>
+            </div>
+            <div class="product-card">
+                <img src="PRODS/prod4.jpg" alt="produit">
+                <h3>Third T-shirt Real madrid</h3><br>
+                <p>T-shirt Third orange Real madrid adidas 24/25</p>
+                <span class="price">650DH</span><br>
+                <button>SHOP NOW</button>
+            </div>
+            <div class="product-card">
+                <img src="PRODS/prod5.jpg" alt="produit">
+                <h3>Home T-shirt Chelsea </h3><br>
+                <p>T-shirt Home blue Chelsea Nike 24/25</p><br>
+                <span class="price">600DH</span><br>
+                <button>SHOP NOW</button>
+            </div>
+            <div class="product-card">
+                <img src="PRODS/prod6.jpg" alt="produit">
+                <h3>Away T-shirt Chelsea</h3><br>
+                <p>T-shirt Away blue Chelsea Nike 24/25</p><br>
+                <span class="price">600DH</span><br>
+                <button>SHOP NOW</button>
+            </div>
+            <div class="product-card">
+                <img src="PRODS/prod7.jpg" alt="produit">
+                <h3>Home T-shirt Barcelona</h3><br>
+                <p>T-shirt Home blue&red barcelona Nike 24/25</p>
+                <span class="price">700DH</span><br>
+                <button>SHOP NOW</button>
+            </div>
+            <div class="product-card">
+                <img src="PRODS/prod8.jpg" alt="produit">
+                <h3>Away T-shirt Barcelona </h3><br>
+                <p>T-shirt Away black Nike 24/25</p><br>
+                <span class="price">700DH</span><br>
+                <button>SHOP NOW</button>
+            </div>
+            <div class="product-card">
+                <img src="PRODS/prod9.jpg" alt="produit">
+                <h3>Home T-shir Man Unitd</h3><br>
+                <p>T-shirt Home red Adidas 24/25</p><br>
+                <span class="price">650DH</span><br>
+                <button>SHOP NOW</button>
+            </div>
+            <div class="product-card">
+                <img src="PRODS/prod10.jpg" alt="produit">
+                <h3>Away T-shirt Man Unitd</h3><br>
+                <p>T-shirt Away Man Unitd Adidas  pink24/25</p>
+                <span class="price">600DH</span><br>
+                <button>SHOP NOW</button>
+            </div>
+            <div class="product-card">
+                <img src="PRODS/prod11.jpg" alt="produit">
+                <h3>Home T-shirt Arsenal</h3><br>
+                <p>T-shirt Home Arsenal adidas 24/25</p><br>
+                <span class="price">700DH</span><br>
+                <button>SHOP NOW</button>
+            </div>
+            <div class="product-card">
+                <img src="PRODS/prod12.jpg" alt="produit">
+                <h3>Home T-shirt Liverpool</h3><br>
+                <p>T-shirt Home Liverpool Nike 24/25</p><br>
+                <span class="price">750DH</span><br>
+                <button>SHOP NOW</button>
+            </div>
+            <div class="product-card">
+                <img src="PRODS/prod13.jpg" alt="produit">
+                <h3>Home T-shirt Man City</h3><br>
+                <p>T-shirt Home Man City Puma 24/25</p><br>
+                <span class="price">700DH</span><br>
+                <button>SHOP NOW</button>
+            </div>
+            <div class="product-card">
+                <img src="PRODS/prod14.jpg" alt="produit">
+                <h3>Home T-shirt Inter Milan</h3><br>
+                <p>T-shirt Home Inter Milan Nike 24/25</p><br>
+                <span class="price">600DH</span><br>
+                <button>SHOP NOW</button>
+            </div>
+            <div class="product-card">
+                <img src="PRODS/prod15.jpg" alt="produit">
+                <h3>Home T-shirt AC Milan</h3><br>
+                <p>T-shirt Home AC Milan Puma 24/25</p><br>
+                <span class="price">700DH</span><br>
+                <button>SHOP NOW</button>
+            </div>
+            <div class="product-card">
+                <img src="PRODS/prod16.jpg" alt="produit">
+                <h3>Home T-shirt Juventus</h3><br>
+                <p>T-shirt Home Juventus Adidas 24/25</p><br>
+                <span class="price">550DH</span><br>
+                <button>SHOP NOW</button>
+            </div>
+            <div class="product-card">
+                <img src="PRODS/prod17.jpg" alt="produit">
+                <h3>Home T-shirt BVB</h3><br>
+                <p>T-shirt Home BVB Puma 24/25</p><br>
+                <span class="price">500DH</span><br>
+                <button>SHOP NOW</button>
+            </div>
+            <div class="product-card">
+                <img src="PRODS/prod18.jpg" alt="produit">
+                <h3>Away T-shirt Atletico Madrid</h3><br>
+                <p>T-shirt Away Atletico Madrid Nike 24/25</p>
+                <span class="price">500DH</span><br>
+                <button>SHOP NOW</button>
+            </div>
+            <div class="product-card">
+                <img src="PRODS/prod19.jpg" alt="produit">
+                <h3>Home T-shirt PSG</h3><br>
+                <p>T-shirt Home PSG Nike 24/25</p><br>
+                <span class="price">560DH</span><br>
+                <button>SHOP NOW</button>
+            </div>
+            <div class="product-card">
+                <img src="PRODS/prod20.jpg" alt="produit">
+                <h3>Home T-shirt AL Nasr Ronaldo 7</h3>
+                <p> T-shirt Home Al Nasr Ronaldo 7. Adidas 24/25</p>
+                <span class="price">900DH</span><br>
+                <button>SHOP NOW</button>
+            </div>
+            <div class="product-card">
+                <img src="PRODS/prod21.jpg" alt="produit">
+                <h3>Away T-shirt ajax</h3><br>
+                <p>T-shirt away ajax Adidas 24/25</p><br>
+                <span class="price">550DH</span><br>
+                <button>SHOP NOW</button>
+            </div>
+            <div class="product-card">
+                <img src="PRODS/prod22.jpg" alt="produit">
+                <h3>Away T-shirt liverpool</h3><br>
+                <p>T-shirt away liverpool nike 24/25</p><br>
+                <span class="price">650DH</span><br>
+                <button>SHOP NOW</button>
+            </div>
+            <div class="product-card">
+                <img src="PRODS/prod23.jpg" alt="produit">
+                <h3>Home T-shirt Santos Neymar 11</h3>
+                <p>T-shirt Home Santos Adidas 12/13 original for neymar</p>
+                <span class="price">950DH</span><br>
+                <button>SHOP NOW</button>
+            </div>
+            <div class="product-card">
+                <img src="PRODS/prod24.jpg" alt="produit">
+                <h3>Home T-shirt Man Unitd Ronaldo 7</h3>
+                <p>T-shirt Home Man unitd Ronaldo 7. Adidas 07/08 original</p>
+                <span class="price">1000DH</span><br>
+                <button>SHOP NOW</button>
+            </div>
+            <div class="product-card">
+                <img src="PRODS/prod25.jpg" alt="produit">
+                <h3>Away T-shirt Napoli</h3><br>
+                <p>T-shirt Away Napoli. EA7 24/25</p><br>
+                <span class="price">600DH</span><br>
+                <button>SHOP NOW</button>
+            </div>
+            <div class="product-card">
+                <img src="PRODS/prod26.jpg" alt="produit">
+                <h3>Home T-shirt Roma</h3><br>
+                <p>T-shirt Home Roma Adidas 2024/2025</p><br>
+                <span class="price">450DH</span><br>
+                <button>SHOP NOW</button>
+            </div>
+            <div class="product-card">
+                <img src="PRODS/prod27.jpg" alt="produit">
+                <h3>T-shirt BRAZIL World Cup</h3><br>
+                <p>BRAZIL T-shirt 2002 "World Cup Winner" NIKE</p>
+                <span class="price">870DH</span><br>
+                <button>SHOP NOW</button>
+            </div>
+            <div class="product-card">
+                <img src="PRODS/prod28.jpg" alt="produit">
+                <h3>Home T-shirt MIAMI</h3><br>
+                <p>T-shirt Home MIAMI Adidas 2024/2025 "MESSI EDITION"</p>
+                <span class="price">600DH</span><br>
+                <button>SHOP NOW</button>
+            </div>
+            <div class="product-card">
+                <img src="PRODS/prod29.jpg" alt="produit">
+                <h3>Home T-shirt AL-Hilal</h3><br>
+                <p>T-shirt Home AL-Hilal PUMA 2024/2025</p>
+                <span class="price">599DH</span><br>
+                <button>SHOP NOW</button>
+            </div>
+            <div class="product-card">
+                <img src="PRODS/prod30.jpg" alt="produit">
+                <h3>Home T-shirt AL-Ahli</h3><br>
+                <p>T-shirt Home AL-Ahli Adidas 2022/2023</p>
+                <span class="price">499DH</span><br>
+                <button>SHOP NOW</button>
+            </div>
+            <div class="product-card">
+                <img src="PRODS/prod31.jpg" alt="produit">
+                <h3>T-shirt Milan</h3><br>
+                <p>Milan T-shirt Special Edition</p><br>
+                <span class="price">899DH</span><br>
+                <button>SHOP NOW</button>
+            </div>
+            <div class="product-card">
+                <img src="PRODS/prod32.jpg" alt="produit">
+                <h3>Real Madrid T-shirt </h3><br>
+                <p>Real Madrid T-shirt 2018 "Final Champions league For Ronaldo"</p>
+                <span class="price">999DH</span><br>
+                <button>SHOP NOW</button>
+            </div>
+            <div class="product-card">
+                <img src="PRODS/prod33.jpg" alt="produit">
+                <h3>Home T-shirt AL-Itihad</h3><br>
+                <p>T-shirt Home AL-Itihad NIKE 2024/2025</p>
+                <span class="price">300DH</span><br>
+                <button>SHOP NOW</button>
+            </div>
+            <div class="product-card">
+                <img src="PRODS/prod34.jpg" alt="produit">
+                <h3>Home T-shirt Sporting</h3><br>
+                <p>T-shirt Home Sorting NIKE 2024/2025</p><br>
+                <span class="price">750DH</span><br>
+                <button>SHOP NOW</button>
+            </div>
+            <div class="product-card">
+                <img src="PRODS/prod35.jpg" alt="produit">
+                <h3>T-shirt Home&Away of Portugal</h3>
+                <p>T-shirt Home&away Portugal Nike 2024</p>
+                <span class="price">1000DH</span><br>
+                <button>SHOP NOW</button>
+            </div>
+            <div class="product-card">
+                <img src="PRODS/prod36.jpg" alt="produit">
+                <h3>Home T-shirt TOTTENHAM</h3><br>
+                <p>T-shirt Home TOTTENHAM NIKE 2024/2025</p>
+                <span class="price">400DH</span><br>
+                <button>SHOP NOW</button>
+            </div>
+            <div class="product-card">
+                <img src="PRODS/prod37.jpg" alt="produit">
+                <h3>Away T-shirt OL</h3><br>
+                <p>T-shirt OL Away Adidas 2024/2025</p><br>
+                <span class="price">550DH</span><br>
+                <button>SHOP NOW</button>
+            </div>
+            <div class="product-card">
+                <img src="PRODS/prod38.jpg" alt="produit">
+                <h3>T-shirt Chelsea</h3><br>
+                <p>T-shirt Cheklsea 2018 "Hazard Edition"</p><br>
+                <span class="price">900DH</span><br>
+                <button>SHOP NOW</button>
+            </div>
+            <div class="product-card">
+                <img src="PRODS/prod39.jpg" alt="produit">
+                <h3>Home T-shirt Atletico Madrid</h3><br>
+                <p>T-shirt Home Atletico madrid NIKE 2024/2025</p>
+                <span class="price">600DH</span><br>
+                <button>SHOP NOW</button>
+            </div>
+            <div class="product-card">
+                <img src="PRODS/prod40.jpg" alt="produit">
+                <h3>T-shirt Raja CA</h3><br>
+                <p>T-shirt Raja Ca Special Edition Original "for birthday of Raja"</p>
+                <span class="price">700DH</span><br>
+                <button>SHOP NOW</button>
+            </div>
+            <div class="product-card">
+                <img src="PRODS/prod41.jpg" alt="produit">
+                <h3>France T-shirt </h3><br>
+                <p>T-shirt of France Nike 2024/2025</p><br>
+                <span class="price">700DH</span><br>
+                <button>SHOP NOW</button>
+            </div>
+            <div class="product-card">
+                <img src="PRODS/prod42.jpg" alt="produit">
+                <h3>SAUDI ARABIA T-shirt</h3><br>
+                <p>T-shirt of SAUDI ARABIA Nike AWAY 2025</p>
+                <span class="price">500DH</span><br>
+                <button>SHOP NOW</button>
+            </div>
+            <div class="product-card">
+                <img src="PRODS/prod43.jpg" alt="produit">
+                <h3>ITALIA T-shirt</h3><br>
+                <p>T-shirt of ITALIA PUMA  AWAY 2025</p><br>
+                <span class="price">700DH</span><br>
+                <button>SHOP NOW</button>
+            </div>
+            <div class="product-card">
+                <img src="PRODS/prod44.jpg" alt="produit">
+                <h3>NETHERLANDS T-shirt</h3><br>
+                <p>T-shirt of NETHERLANDS NIKE AWAY 2025</p>
+                <span class="price">600DH</span><br>
+                <button>SHOP NOW</button>
+            </div>
+            <div class="product-card">
+                <img src="PRODS/prod45.jpg" alt="produit">
+                <h3>NEGERIA T-shirt</h3><br>
+                <p>T-shirt of NEGIRIA NIKE Special Edition 2024</p>
+                <span class="price">550DH</span><br>
+                <button>SHOP NOW</button>
+            </div>
+            <div class="product-card">
+                <img src="PRODS/prod46.jpg" alt="produit">
+                <h3>RAJA CA T-shirt</h3><br>
+                <p>T-shirt of Raja Ca ""NEVER LOSE"" Umbro 2023/2024</p>
+                <span class="price">800DH</span><br>
+                <button>SHOP NOW</button>
+            </div>
+            <div class="product-card">
+                <img src="PRODS/prod47.jpg" alt="produit">
+                <h3>WYDAD AC T-shirt</h3><br>
+                <p>T-shirt of WYDAD AC 2024/2025</p><br>
+                <span class="price">*3=100DH</span><br>
+                <button>SHOP NOW</button>
+            </div>
+            <div class="product-card">
+                <img src="PRODS/prod48.jpg" alt="produit">
+                <h3>MILAN T-shirt</h3><br>
+                <p>T-shirt of MILAN Final Champions League 2007 'bwin'</p>
+                <span class="price">990DH</span><br>
+                <button>SHOP NOW</button>
+            </div>
+            <div class="product-card">
+                <img src="PRODS/prod49.jpg" alt="produit">
+                <h3>Barcelona T-shirt </h3><br>
+                <p>T-shirt of Barcelona NIKE 2009 "MESSI Edition"</p>
+                <span class="price">900DH</span><br>
+                <button>SHOP NOW</button>
+            </div>
+            <div class="product-card">
+                <img src="PRODS/prod50.jpg" alt="produit">
+                <h3>FRANCE T-shirt</h3><br>
+                <p>T-shirt of France World Cup 2006 "ZIDANE Edition"</p>
+                <span class="price">900DH</span><br>
+                <button>SHOP NOW</button>
+            </div>
+            <div class="product-card">
+                <img src="PRODS/prod51.jpg" alt="produit">
+                <h3>REAL MADRID T-shirt</h3><br>
+                <p>T-shirt of REAL MADRID Adidas 2021/2022 </p>
+                <span class="price">700DH</span><br>
+                <button>SHOP NOW</button>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

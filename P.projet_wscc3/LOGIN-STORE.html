@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOG IN</title>
+    <link rel="website icon"  type="jpg" href="LOGO.jpg">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            background-image: url(BGS/bgimg4.jfif);
+            color: #f03e3e;
+        }
+        .login-container {
+            background: white;
+            padding: 2rem;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+            width: 100%;
+            max-width: 400px;
+            text-align: center;
+        }
+        .login-container h1 {
+            margin-bottom: 1.5rem;
+            color: #121010;
+            font-size: 2rem;
+        }
+        
+        .login-container form {
+            display: flex;
+            flex-direction: column;
+        }
+        .login-container input {
+            margin-bottom: 1rem;
+            padding: 0.8rem;            
+            border: 2px solid #0c0707;
+            border-radius: 20px;
+            font-size: 1rem;
+        }
+        .login-container input:focus {
+            border-color: #c0a0a0;
+            outline: none;
+        }
+        .login-container button {
+            background: url(LOGO.jpg);
+            color: white;
+            border: solid black;
+            padding: 0.8rem;
+            border-radius: 20px;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: background 0.5s;
+        }
+        
+        .login-container button:hover {
+            background: #392f2f;
+        }
+
+        .login-container .forgot-password {
+            margin-top: 1rem;
+            font-size: 0.9rem;
+        }
+
+        .login-container .forgot-password a {
+            color: #28bbd2;
+            text-decoration: none;
+        }
+
+        .login-container .forgot-password a:hover {
+            text-decoration: underline;
+        }
+
+        .login-container .signup {
+            margin-top: 1.5rem;
+            font-size: 0.9rem;
+        }
+
+        .login-container .signup a {
+            color: #467cac;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .login-container .signup a:hover {
+            text-decoration: underline;
+            color: #0c0707;
+        }
+    </style>
+</head>
+<body>
+    <div class="login-container">
+        <h1>Log in</h1>
+        <form> 
+            <input type="email" name="email" placeholder="E-mail Address">
+            <input type="password" name="password" placeholder="Password">
+            <button type="submit">Log in</button>
+        </form>
+        <div class="forgot-password">
+            <a href="FORGOT-PSS-STORE.html">Forgot password?</a>
+        </div>
+        <div class="signup">
+            <p>Don't have an account?</a> <a href="SIGNUP-STORE.html" target="_blank">Create a new account</a></p>
+        </div>
+    </div>
+</body>
+</html>
